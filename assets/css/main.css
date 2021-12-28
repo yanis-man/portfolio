@@ -1,0 +1,122 @@
+@font-face 
+    {
+    font-family: Arcade;
+    src: url(./assets/fonts/arcadeclassic/ARCADECLASSIC.TTF);
+    }
+    @font-face 
+    {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto.ttf);
+    }
+    html
+    {
+        background-color: #222222;
+        font-family: 'Roboto';
+        color:#d7d7d7;
+        display:flex;
+        flex-direction: column;
+    }
+    a
+    {
+        color:#d7d7d7;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+    footer
+    {
+        margin-top: 14%;
+    }
+    .nav-container
+    {
+        display: flex;
+        flex-direction: row;
+        top:0px;
+        left:5px;
+        padding:0px;
+    }
+    .nav-element
+    {
+        margin-left:5px;
+    }
+    .nav-element > p > a
+    {
+        color:#d7d7d7;
+        text-decoration: none;
+    }
+    .nav-element > p > a:hover
+    {
+        text-decoration: underline;
+    }
+    .nav-element > p > a:visited
+    {
+        text-decoration: underline;
+    }
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-container
+    {
+        display: flex;
+        margin-top:25px;
+    }
+    .title-container
+    {
+        height: auto;
+        margin-bottom:5px;
+    }
+    .name-text
+    {
+        font-family: 'Arcade';
+        font-size: 4em;
+        margin:5px;
+    }
+    .sub-title
+    {
+        margin:0px;
+    }
+    .text
+    {
+        text-align: justify;
+        padding:8px;
+        width: 50%;
+    }
+    #me
+    {
+        background-color: rgba(106, 85, 152, 0.27);
+    }
+    #exp
+    {
+        background-color: rgba(85, 152, 113, 0.27);
+    }
+    #blog
+    {
+
+        background-color: rgba(152, 151, 85, 0.27);
+    }
+    .article
+    {
+        margin-top:10px;
+    }
+
+
+    /* FORMATTING CLASS */
+    .col
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    .row
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .highlight
+    {
+        color:#222222;
+        background-color: rgba(233, 233, 233, 0.733);
+    }

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" media=”screen” />
+    <title>Yanis</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-element">
+            <p><a href="#">Home</a> | </p>
+        </div>
+        <div class="nav-element">
+            <p><a href="#">CV</a> | </p>
+        </div>
+        <div class="nav-element">
+            <p><a href="#">Blog</a> | </p>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="title-container">
+            <h3 class="name-text" id="name"></h3>
+        </div>
+        <h4 class="sub-title">Student | Self-taught dev' | Scuba Diver</h4>
+        <div class="text-container col">
+            <div class="text-container row">
+                <div class="text" id="me">
+                    <h3>#ME</h3>
+                    <p>Hey! My name <a id="name-click" href="#">is</a> (<- click) I am <span id="age"> yo</span> <span class="highlight">from France</span> and really interested in computer science as well as in scuba diving, automotive engineering, aircraft and astronomy. <br> My programmer journey has started almost at the same time as my "scientist", when I was ~ 8 years old. At the time I was messing around with VISUAL BASIC and I can remember a pretty simple script asking for somes of your infos (name, date of birth,etc..) then generating an ID telling your age (I had to search to end up using timestamp to substract dates). <br></p>
+                </div>
+                <div class="text" id="exp">
+                    <h3>#EXP</h3>
+                    <p>At the moment I study at <span class="highlight">Paris 8</span></a> to earn a Licence in computer science. I done a lot of stuff see <a href="#">my github</a>. Those are related to code, only; I worked in <span class="highlight">various fields</span> such as restaurant (waiter), seller (grocery) but I also managed a lot of small projects which I will not be able to show you because they: closed, got aborted, etc.. .</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text" id="blog">
+                    <h3>#BLOG</h3>
+                    <p>I have a small <span class="highlight">blog</span> were I write about computer science, <span class="highlight">both in French and English</span><br> Here are a few articles (randomly picked):</p>
+                    <ul>
+                        <li class="article"><a href="#">Welcome on my blog</a> - Posted 24 Dec 21 @ 9:45PM</li>
+                        <li class="article"><a href="#">Welcome on my blog</a> - Posted 24 Dec 21 @ 9:45PM</li>
+                        <li class="article"><a href="#">Welcome on my blog</a> - Posted 24 Dec 21 @ 9:45PM</li>
+                    </ul>
+                </div>
+                <div class="text">
+                    <h3>#<span class="highlight">SOCIALS</span></h3>
+                    <p><a href="https://github.com/yanis-man">Github</a> - I used to have a lot of private repo</p>
+                    <p><a href="curri">Curriculum Vitae</a> - Let's better know each other</p>
+                    <p>Twitter - My life, in 140 chars</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<footer>
+    Mansouri Yanis - All rights reserved 
+</footer>
+<style>
+    @font-face 
+    {
+    font-family: Arcade;
+    src: url(./assets/fonts/arcadeclassic/ARCADECLASSIC.TTF);
+    }
+    @font-face 
+    {
+    font-family: Roboto;
+    src: url(./assets/fonts/Roboto.ttf);
+    }
+    html
+    {
+        background-color: #222222;
+        font-family: 'Roboto';
+        color:#d7d7d7;
+        display:flex;
+        flex-direction: column;
+    }
+    a
+    {
+        color:#d7d7d7;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+    footer
+    {
+        margin-top: 14%;
+    }
+    .nav-container
+    {
+        display: flex;
+        flex-direction: row;
+        top:0px;
+        left:5px;
+        padding:0px;
+    }
+    .nav-element
+    {
+        margin-left:5px;
+    }
+    .nav-element > p > a
+    {
+        color:#d7d7d7;
+        text-decoration: none;
+    }
+    .nav-element > p > a:hover
+    {
+        text-decoration: underline;
+    }
+    .nav-element > p > a:visited
+    {
+        text-decoration: underline;
+    }
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-container
+    {
+        display: flex;
+        margin-top:25px;
+    }
+    .title-container
+    {
+        height: auto;
+        margin-bottom:5px;
+    }
+    .name-text
+    {
+        font-family: 'Arcade';
+        font-size: 4em;
+        margin:5px;
+    }
+    .sub-title
+    {
+        margin:0px;
+    }
+    .text
+    {
+        text-align: justify;
+        padding:8px;
+        width: 50%;
+    }
+    #me
+    {
+        background-color: rgba(106, 85, 152, 0.27);
+    }
+    #exp
+    {
+        background-color: rgba(85, 152, 113, 0.27);
+    }
+    #blog
+    {
+
+        background-color: rgba(152, 151, 85, 0.27);
+    }
+    .article
+    {
+        margin-top:10px;
+    }
+
+
+    /* FORMATTING CLASS */
+    .col
+    {
+        display:flex;
+        flex-direction: column;
+    }
+    .row
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .highlight
+    {
+        color:#222222;
+        background-color: rgba(233, 233, 233, 0.733);
+    }
+</style>
+<script src="assets/js/effects.js" ></script>
+</html>
