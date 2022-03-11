@@ -31,7 +31,6 @@
     .nav-container
     {
         display: flex;
-        flex-direction: row;
         top:0px;
         left:5px;
         padding:0px;
@@ -56,7 +55,6 @@
     .main-container
     {
         display: flex;
-        flex-direction: column;
         align-items: center;
     }
     .text-container
@@ -79,11 +77,19 @@
     {
         margin:0px;
     }
-    .text
+    @media screen and (min-width:1300px)
     {
-        text-align: justify;
-        padding:8px;
-        width: 50%;
+        .text
+        {
+            text-align: justify;
+            padding:8px;
+            width: 50%;
+        }
+        .row
+    {
+        display: flex;
+        flex-direction: row;
+    }
     }
     #me
     {
@@ -109,11 +115,6 @@
     {
         display:flex;
         flex-direction: column;
-    }
-    .row
-    {
-        display: flex;
-        flex-direction: row;
     }
     .highlight
     {

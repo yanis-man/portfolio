@@ -1,0 +1,16 @@
+@media  (max-width:1300px) {
+    .row
+    {
+        display: flex;
+        flex-direction: unset;
+        flex-direction: column;
+    }
+    .text
+    {
+        width: 95%;
+    }
+    footer
+    {
+        background-color: blue;
+    }
+}
